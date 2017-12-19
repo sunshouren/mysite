@@ -25,7 +25,21 @@
 }
 
 #deng {
-    width: auto;
+
     text-align: right;
+
+}
+
+#smban {
+
+    margin-top: 32px;
+    width: 355px;
+    height: 355px;
+
+}
+
+.fo {
+    margin-top: 21px;
+    font-size: 24px;
 
 }
