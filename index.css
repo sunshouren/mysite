@@ -7,10 +7,11 @@
 
 
 #ban {
-    width: auto
+    width: 100%
 }
 
 #daohang {
+
     background: #000000;
 
 }
@@ -31,10 +32,10 @@
 }
 
 #smban {
+    margin-top: 19px;
 
-    margin-top: 32px;
-    width: 355px;
-    height: 355px;
+
+
 
 }
 
@@ -43,3 +44,5 @@
     font-size: 24px;
 
 }
+
+
