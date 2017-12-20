@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang='zh-CN'>
+
+<head>
+
+    <title>incase</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="孙守仁" />
+    <link rel="icon" href="img/%E7%88%B1%E5%BF%83.JPG" />
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+    <div id='picbox' class="row">
+        <div id='minpic' class="col-xs-6 col-md-3">
+            <a href="#" class="thumbnail">
+                <img id='pic'src="img/%E5%9B%BE%E5%B1%82%207.png" alt="...">
+                <h4 id='wenzi'>HELLO</h4>
+            </a>
+        </div>
+    </div>
+
+</body>
+<script>
+    var 1={
+        src:'img/1.png',
+        wenzi:'hi',
+    }
+    var 2={
+        src:'img/3.png'
+        wenzi:'nihao'
+    }
+
+
+
+    function fuzi(va) {
+
+        //    $('#picbox').append($('#minpic').clone());
+        //    $("#minpic").clone().appendTo($('#picbox'));
+        var fuben = $("#minpic").clone(); //定义变量副本为minpic的复制
+        fuben.find("#wenzi").html("hi");
+        fuben.find("#wenzi").css({
+            color: "red"
+        });
+        fuben.find("#pic").attr('src', 'img/图层 6.png');
+        fuben.appendTo($('#picbox'));
+
+
+
+
+    }
+
+    fuzi();
+    fuzi();
+    fuzi();
+
+</script>
