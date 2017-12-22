@@ -61,7 +61,12 @@ a {
 .btn {}
 
 #in {
-   background: red;
+   background: #9e9eb2;
+    color: black;
+    position: relative;
+    transform: translate(920px ,-360px);
+    border: 0;
+
 
 }
 
@@ -72,7 +77,18 @@ a {
 
 }
 
-#btng {
 
+
+
+#in1 {
+    background: #9e9eb2;
+    color: black;
+    position: relative;
+    transform: translate(290px ,-100px);
+    border: 0;
+
+}
+
+#out1 { position: relative;
 
 }
