@@ -33,6 +33,7 @@
 
 #smban {
     margin-top: 19px;
+   left: 0;
 
 
 
@@ -48,5 +49,30 @@
 
 
 a {
-    border-radius:0;
+    border-radius: 0;
+}
+
+
+#god {
+    width: 100%;
+    margin-top: 21px;
+}
+
+.btn {}
+
+#in {
+   background: red;
+
+}
+
+#out {
+    position: relative;
+
+
+
+}
+
+#btng {
+
+
 }
